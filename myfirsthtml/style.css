@@ -1,0 +1,16 @@
+.leftHalf {
+   background-image: url('img/valk.jpg');
+   width: 50%;
+   position: absolute;
+   left: 0px;
+   height: 100%;
+   background-repeat: no-repeat;
+}
+
+.rightHalf {
+
+   width: 50%;
+   position: absolute;
+   right: 0px;
+   height: 100%;
+}
