@@ -1,0 +1,140 @@
+/*start from top to bottom on html*/
+/*always place imported fonts on top - meaning everything is gonna use that font
+and needs to be online because it references something from the net.*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+/* space after id means anything inside that id*/
+#sidenavimg img{
+	height: 160px; /* Same as the width of the sidebar */
+	width: auto;
+}
+
+/* Style page content */
+
+
+/*this one is a reset for testing codes, for being lazy*/
+/*just one or two fonts per website. the next one is a fallback in font-family*/
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+	clear:both;
+}
+/*padding is used to generate space around an element's content, inside of any defined borders.*/
+body{
+	margin-left: 160px; /* Same as the width of the sidebar */
+	padding: 20px;
+	background: #ffffff;
+}
+/*margin means 10px on all sides
+if you use margin: 10px 20px 30px 40px you start from top to side to bottom clockwise*/
+#header{
+	margin:10px;
+	padding: 10px;
+	border-bottom: 1px solid;
+	
+}
+
+#main{
+	font-size: 50px;
+}
+
+#sub{
+	width: 50%;
+	text-align: left;
+	list-style: none;
+	display: inline-block;
+	text-decoration: none;
+	color: #000000;
+	padding: 10px;
+	font-size: 20px;
+
+}
+/*this is the hero part*/
+#hero{
+	width:100%;
+	margin:10px 0;
+}
+#hero img{
+	width:100%;
+	height: auto;
+
+}
+/*if youre planning to add margin, deduct from total size of picture thus
+width 40%*/
+.wutwedo{
+	float: left;
+	width: 32%;
+	margin:0 1% 0 0;
+	border-right: 1px solid;
+
+}
+.wutwedo.second{
+	margin: 0 1% 0 0
+
+	
+
+}
+.third{
+	margin: 0 0 0 1%
+	
+
+}
+/* this is the image beside the first featured image*/
+.wutwedo img{
+	width:100%;
+	height: auto;
+}
+
+/*this is the bottom/last part of the web page*/
+#footer{
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin:1% 0 0 0;
+	padding: 10px;
+	
+}
+#address{
+	float: left;
+	padding-right:25px;
+	
+}
+#twitterlogo img{
+	height: 25px;
+	width: auto;
+	float: right;
+	padding-bottom: 10px;
+}
+#copyright{
+	padding-top:25px;
+	text-align: left;
+}

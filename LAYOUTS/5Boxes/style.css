@@ -1,0 +1,121 @@
+/*start from top to bottom on html*/
+/*always place imported fonts on top - meaning everything is gonna use that font
+and needs to be online because it references something from the net.*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/*this one is a reset for testing codes, for being lazy*/
+/*just one or two fonts per website. the next one is a fallback in font-family*/
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+.clear{
+	clear:both;
+}
+/*padding is used to generate space around an element's content, inside of any defined borders.*/
+body{
+	padding: 20px;
+	background: #ffffff;
+}
+/*margin means 10px on all sides
+if you use margin: 10px 20px 30px 40px you start from top to side to bottom clockwise*/
+#header{
+	margin:10px;
+	padding: 10px;
+	border-bottom: 1px solid;
+	
+}
+/* space after id means anything inside that id*/
+#logo{
+	font-size: 50px;
+}
+#logo img{
+	height: 50px;
+	width: auto;
+	border-right: 1px solid #000000;
+	margin-right: 10px;
+}
+/*google fonts use roboto most of the time or any style you like.
+header>div means any div under header. also called float. if you use #logo,#menu you assign
+two property values*/
+#logo, #menu{
+	float: left;
+	width: 50%;
+}
+
+#menu{
+	text-align: right;
+
+}
+#menu ul{
+	list-style: none;
+	
+
+}
+#menu ul li{
+	display: inline-block;
+}
+/*this is the menu buttons on the upper right*/
+#menu ul li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 10px;
+	font-size: 20px;
+}
+/*this is the hero part*/
+#hero{
+	width:100%;
+	margin:10px 0;
+}
+#hero img{
+	width:100%;
+	height: auto;
+
+}
+/*if youre planning to add margin, deduct from total size of picture thus
+width 40%*/
+.featured-image{
+	float: left;
+	width: 24%;
+	margin:0 1% 0 0;
+
+
+}
+/*pseudo selectors are used to align pics properly. this .last
+the last digit 5% is left side margin*/
+.featured-image.second{
+	margin: 0 1% 0 0
+	
+
+}
+.featured-image.third{
+	margin: 0 0 0 1%
+	
+
+}
+.featured-image.last{
+	margin: 0 0 0 1%
+	
+
+}
+/* this is the image beside the first featured image*/
+.featured-image img{
+	width:100%;
+	height: auto;
+}
+
+/*this is the bottom/last part of the web page*/
+#footer{
+	border-top: 1px solid;
+	margin:1% 0 0 0;
+	
+}
+#address{
+	float: left;
+	
+}
+#copyright{
+	text-align: right;
+	float:right;
+}
