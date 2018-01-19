@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#buttonpage{
+	width: 380px;
+	height: 550px;
+	padding: 10px;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #d3d3d3;
+}
+.clear{
+	clear:both;
+}
+#container{
+    zoom: 0.8;
+    -moz-transform: scale(0.8);
+}
+#loginfb img{
+	width: 380px;
+
+}
+
+#formpage form input{
+	width:370px;
+	font-size: 20px;
+	margin: 0 2px 0 2px;
+}
+input[type="text"] {
+    background: #fafafa;
+    color: #d2d2d2;
+    
+}
+input[name="text2"]{
+	padding: 5px 0 5px 0;
+}
+
+#signup img{
+	width: 380px;
+	margin-top: 10px;
+}
+#terms img{
+	width: 380px;
+}
+#buttonpage2{
+	width: 380px;
+	height: 60px;
+	padding: 10px;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #d3d3d3;
+}
+#loginx {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	color: #737373;
+}
+#loginx a{
+	text-decoration: none;
+	color: #00bfff;
+}
+#getapp{
+	width: 380px;
+	height: 60px;
+	padding: 10px;
+}
+#getit{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	color: #737373;
+}
+#moblinks img{
+	align-items: center;
+	padding: 10px;
+}
+/*positioning for form*/
+#rightpart {
+	padding: 10px;
+	float: right;
+	margin-right: 530px;
+}
+/* this is where the form ends */
+
+/*left side*/
+#left img{
+	float: left;
+	margin-left: 550px;
+	margin-top: 100px;
+	height: 600px;
+	width: auto;
+}
+/*left side part of form ends here*/
+
+#footer ul li{
+	display: inline-block;
+	padding: 0 5px;
+
+}
+#footer{
+	margin-top: 50px;
+	margin-left: 25%;
+	font-size: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+#footer a{
+	text-decoration: none;
+	color: #32326f;
+	
+}
+#blankspace{
+	margin-top: 100px;
+}
+#blankspace2{
+	padding-bottom:  100px;
+}
+#copyright{
+	float: right;
+	padding-left: 130px;
+	color: #939393;
+
+}
+#sexybody{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+@media (max-width: 979px) {
+ /* Selectors and styles affecting screens UP TO 979px (Desktop) */
+}
+
+@media (max-width: 767px) {
+   /* Selectors and styles affecting screens UP TO 767px (Tablet) */
+}
+
+@media (max-width: 435px) {
+ 
+   /* Selectors and styles affecting screens UP TO 480px (Phone) */
+#left{
+	display: none;
+}
+}
